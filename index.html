@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Candidato 360 + Código Imagen · Bajo Cauca</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Calibri', 'Segoe UI', system-ui, sans-serif; background: #111; color: #fff; overflow: hidden; height: 100vh; }
+  .slide { display: none; width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; padding: 60px 80px; }
+  .slide.active { display: flex; flex-direction: column; }
+  .dark { background: #0C3823; }
+  .light { background: #FDFBF7; color: #1A1A1A; }
+  .gold { color: #C9A84C; }
+  .muted { color: #A8DBC9; }
+  h1 { font-family: 'Trebuchet MS', sans-serif; font-size: 56px; line-height: 1.05; font-weight: 800; letter-spacing: -0.5px; }
+  h2 { font-family: 'Trebuchet MS', sans-serif; font-size: 32px; font-weight: 800; margin-bottom: 12px; }
+  h3 { font-family: 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: 700; }
+  .eyebrow { font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: #C9A84C; font-weight: 700; margin-bottom: 10px; }
+  .line { width: 80px; height: 2px; background: #C9A84C; margin: 16px 0 24px; }
+  .nav { position: fixed; bottom: 24px; right: 40px; display: flex; gap: 12px; z-index: 10; }
+  .nav button { background: #C9A84C; color: #0C3823; border: none; padding: 10px 18px; font-weight: 700; cursor: pointer; border-radius: 4px; font-size: 14px; }
+  .nav button:hover { background: #e0c06a; }
+  .counter { position: fixed; bottom: 30px; left: 40px; color: #888; font-size: 14px; z-index: 10; }
+  .card { background: #0F4A30; border-radius: 8px; padding: 20px; }
+  .price-card { background: #F8F4EE; color: #1A1A1A; border-radius: 8px; padding: 24px 18px; text-align: center; }
+  .price-card.highlight { background: #0C3823; color: #fff; }
+  .total { font-size: 28px; font-weight: 800; font-family: 'Trebuchet MS', sans-serif; }
+  .footer-bar { position: absolute; bottom: 0; left: 0; right: 0; height: 70px; background: #000; display: flex; align-items: center; justify-content: space-between; padding: 0 60px; }
+  .logo-text { font-weight: 700; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 -->
+<div class="slide dark active" id="s1">
+  <div style="text-align:center; margin-top: 80px;">
+    <div style="font-size:48px; margin-bottom:20px;">📍</div>
+    <h1>CANDIDATO 360<br>+ CÓDIGO IMAGEN<br>BAJO CAUCA</h1>
+    <div class="line" style="margin: 30px auto;"></div>
+    <p class="gold" style="font-size:18px;">Paquete Integral para Candidatos a Alcaldía 2027</p>
+  </div>
+  <div class="footer-bar">
+    <div class="logo-text">Ricardo.Ruiz · Candidato 360</div>
+    <div class="logo-text gold">Máximo Impacto</div>
+    <div style="color:#888; font-size:13px;">Confidencial</div>
+  </div>
+</div>
+
+<!-- SLIDE 2 -->
+<div class="slide light" id="s2">
+  <div class="eyebrow">LA PROMESA</div>
+  <h2>Evidencia + Imagen que conecta</h2>
+  <div class="line"></div>
+  <div style="display:flex; gap:40px; align-items:flex-start; margin-top:10px;">
+    <div style="flex:1.2;">
+      <p style="max-width:640px; font-size:17px; line-height:1.5; margin-bottom:28px;">
+        Candidato 360 le da los datos para decidir. Código Imagen le da la presencia, el mensaje y la conexión emocional para que esos datos se conviertan en votos.
+      </p>
+      <div style="display:flex; flex-direction:column; gap:18px;">
+        <div><strong class="gold" style="font-size:22px;">01</strong> <strong style="font-size:18px;">¿Dónde estuvo mi voto?</strong><br><span style="color:#444; margin-left:42px;">Historial electoral completo, mesa a mesa, en el mapa de su municipio.</span></div>
+        <div><strong class="gold" style="font-size:22px;">02</strong> <strong style="font-size:18px;">¿Cuántos votos necesito?</strong><br><span style="color:#444; margin-left:42px;">Meta calculada y distribuida por barrio para que el equipo sepa dónde ir.</span></div>
+        <div><strong class="gold" style="font-size:22px;">03</strong> <strong style="font-size:18px;">¿Cómo me ven y cómo conecto?</strong><br><span style="color:#444; margin-left:42px;">Imagen, mensaje y presencia que generen confianza y movilicen en el territorio.</span></div>
+      </div>
+    </div>
+    <div style="flex:0 0 320px; text-align:center;">
+      <video controls playsinline style="width:100%; max-width:320px; border-radius:12px; background:#000; box-shadow:0 8px 24px rgba(0,0,0,0.3);">
+        <source src="candidato360_demo.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+      </video>
+      <p style="font-size:12px; color:#666; margin-top:10px;">Demo Candidato 360</p>
+    </div>
+  </div>
+</div>
+
+<!-- Note: Full slides 3-7 would follow in the actual file. This is a truncated example for the call; in real use the full content is uploaded. -->
+
+</body>
+</html>
